@@ -1,15 +1,23 @@
-# Análise de Performance Gamer
+# 🎮 Análise de Performance Gamer
 
-Projeto em Python para análise de desempenho em sessões de jogos.
+Projeto em Python para registrar e analisar sessões de jogos, armazenando dados em um banco MySQL e gerando análises estatísticas e gráficos.
 
-## Funcionalidades
+A ideia é entender como fatores como sono, foco e configuração gráfica impactam o desempenho no jogo.
 
-- CRUD completo de sessões
-- Análise estatística com Pandas
-- Geração de gráficos com Matplotlib
-- Integração com MySQL
+---
 
-## Tecnologias
+## ✅ O que o sistema faz
+
+- Permite cadastrar sessões de jogo
+- Salva os dados em banco de dados
+- Lista, edita e remove sessões
+- Calcula médias de desempenho
+- Gera gráficos automáticos
+- Identifica sessões de risco (pouco sono + baixo foco)
+
+---
+
+## 🛠 Tecnologias utilizadas
 
 - Python
 - MySQL
@@ -17,16 +25,38 @@ Projeto em Python para análise de desempenho em sessões de jogos.
 - Matplotlib
 - Git
 
-## Como executar
+---
+
+## 🚀 Como rodar o projeto
 
 ### 1. Instalar dependências
 
+```bash
 pip install pandas matplotlib mysql-connector-python
+```
 
-### 2. Configurar o banco
+### 2. Criar o banco de dados
 
-Editar o arquivo database.py com suas credenciais.
+Executar o arquivo `database.sql` no MySQL.
 
-### 3. Executar o projeto
+### 3. Configurar acesso ao banco
 
+Editar o arquivo `database.py` com seu usuário, senha e porta do MySQL.
+
+### 4. Executar o sistema
+
+```bash
 python main.py
+```
+
+---
+
+## 🎯 Objetivo
+
+Projeto desenvolvido para praticar:
+
+- CRUD com banco de dados
+- Modelagem relacional (com chave estrangeira)
+- Análise de dados com Pandas
+- Visualização com Matplotlib
+- Organização de código em módulos
