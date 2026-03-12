@@ -1,4 +1,4 @@
-# 🎮 Análise de Performance Gamer
+# Análise de Performance Gamer
 
 Projeto em Python para registrar e analisar sessões de jogos, armazenando dados em um banco MySQL e gerando análises estatísticas e gráficos.
 
@@ -6,7 +6,7 @@ A ideia é entender como fatores como sono, foco e configuração gráfica impac
 
 ---
 
-## ✅ O que o sistema faz
+## O que o sistema faz
 
 - Permite cadastrar sessões de jogo
 - Salva os dados em banco de dados
@@ -17,7 +17,7 @@ A ideia é entender como fatores como sono, foco e configuração gráfica impac
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - MySQL
@@ -27,7 +27,7 @@ A ideia é entender como fatores como sono, foco e configuração gráfica impac
 
 ---
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Instalar dependências
 
@@ -51,7 +51,7 @@ python main.py
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Projeto desenvolvido para praticar:
 
