@@ -1,4 +1,4 @@
-# 🎮 Análise de Performance Gamer
+# Análise de Performance Gamer
 
 Projeto em Python para registrar e analisar sessões de jogos, armazenando dados em um banco MySQL e gerando análises estatísticas e gráficos.
 
