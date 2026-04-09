@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🎮 Gaming Performance Analytics | Análise de Dados
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
