@@ -9,7 +9,7 @@
 
 </div>
 
-## 💡 Sobre o Projeto
+## 📌 Sobre o Projeto
 
 <div align="justify">
 
