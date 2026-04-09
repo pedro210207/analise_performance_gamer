@@ -1,4 +1,4 @@
-# 🎮 Gaming Performance Analytics | Engenharia e Análise de Dados
+# 🎮 Gaming Analytics | Engenharia de Dados
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
