@@ -69,8 +69,6 @@ O grande diferencial deste projeto está no motor de geração de dados (`gerar_
 2. **Impacto Fisiológico:** A análise de regressão comprova que sessões com poucas horas de sono derrubam a média de foco e percepção de desempenho do jogador de forma consistente.
 3. **Padrão de Consumo:** Novembro de 2025 foi o mês com maior pico de horas jogadas, o que pode ser correlacionado com o lançamento ou atualização de grandes títulos.
 
-</div>
-
 ---
 
 ## ⚙️ Como Reproduzir o Projeto
@@ -102,3 +100,5 @@ Este projeto foi desenvolvido como parte do meu portfólio pessoal para demonstr
 <div align="center">
 
 🚀 *Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/pedro-oliveira-sampaio-0b5469387)!*
+
+</div>
