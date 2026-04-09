@@ -1,9 +1,6 @@
 from database import conectar
 import traceback
 
-# =============================
-# CATEGORIA FPS
-# =============================
 def categoria_fps(fps):
     if fps <= 30:
         return "0-30"
@@ -16,10 +13,6 @@ def categoria_fps(fps):
     else:
         return "150+"
 
-
-# =============================
-# COLETAR DADOS DA SESSÃO
-# =============================
 def coletar_dados_sessao():
     horas = float(input("Horas jogadas: "))
     fps = int(input("FPS médio: "))
@@ -31,10 +24,6 @@ def coletar_dados_sessao():
 
     return horas, fps, stutter, config, sono, foco, desempenho
 
-
-# =============================
-# ADICIONAR SESSÃO
-# =============================
 def adicionar_sessao():
     conn = None
     try:
@@ -68,7 +57,7 @@ def adicionar_sessao():
         ))
 
         conn.commit()
-        print("Sessão adicionada 🎮")
+        print("Sessão adicionada.")
 
     except Exception:
         traceback.print_exc()
@@ -77,10 +66,6 @@ def adicionar_sessao():
         if conn and conn.is_connected():
             conn.close()
 
-
-# =============================
-# LISTAR SESSÕES
-# =============================
 def listar_sessoes():
     conn = None
     try:
@@ -107,10 +92,6 @@ def listar_sessoes():
         if conn and conn.is_connected():
             conn.close()
 
-
-# =============================
-# EDITAR SESSÃO
-# =============================
 def editar_sessao():
     conn = None
     try:
@@ -139,7 +120,7 @@ def editar_sessao():
         ))
 
         conn.commit()
-        print("Sessão editada ✏️")
+        print("Sessão editada.")
 
     except Exception:
         traceback.print_exc()
@@ -148,10 +129,6 @@ def editar_sessao():
         if conn and conn.is_connected():
             conn.close()
 
-
-# =============================
-# APAGAR SESSÃO
-# =============================
 def apagar_sessao():
     conn = None
     try:
@@ -164,7 +141,7 @@ def apagar_sessao():
         cursor.execute("DELETE FROM sessoes WHERE id=%s", (id_apagar,))
         conn.commit()
 
-        print("Sessão apagada 🗑️")
+        print("Sessão apagada.")
 
     except Exception:
         traceback.print_exc()
