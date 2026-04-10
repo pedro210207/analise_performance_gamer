@@ -65,7 +65,7 @@ O grande diferencial deste projeto está no motor de geração de dados (`gerar_
 ---
 
 ## 💡 Insights Extraídos
-1. **Gargalo de Hardware:** Jogos de mundo aberto como *Cyberpunk 2077* apresentam queda severa no FPS quando migrados da configuração "Alta" para "Ultra", indicando o limite técnico do hardware atual.
+1. **Gargalo de Hardware:** Jogos de mundo aberto como *Cyberpunk 2077* apresentam queda severa no FPS quando migrados da configuração "Média" para "Ultra", indicando o limite técnico do hardware atual.
 2. **Impacto Fisiológico:** A análise de regressão comprova que sessões com poucas horas de sono derrubam a média de foco e percepção de desempenho do jogador de forma consistente.
 3. **Padrão de Consumo:** Novembro de 2025 foi o mês com maior pico de horas jogadas, o que pode ser correlacionado com o lançamento ou atualização de grandes títulos.
 
